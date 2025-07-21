@@ -1,0 +1,13 @@
+res = 300.0;  //was 0.3
+Point(1) = {  50.0, 50.0,  0.0, res};
+Point(2) = { 100.0, 50.0,  0.0, res};
+Point(3) = {  50.0, 100.0, 0.0, res};
+Point(4) = {  0.0,  50.0,  0.0, res};
+Point(5) = {  50.0, 0.0, 0.0, res};
+Circle(1) = {2,1,3};
+Circle(2) = {3,1,4};
+Circle(3) = {4,1,5};
+Circle(4) = {5,1,2};
+Curve Loop(1) = {1,2,3,4};
+Plane Surface(1) = {1};
+Physical Surface(1) = {1};
