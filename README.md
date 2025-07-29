@@ -12,3 +12,5 @@ The file test_ngmsh2.vol is a saved Netgen mehs file that reads successfully int
 
 N.B. to see the curved edges in ParaView, increase the Nonlinear Subdivision Level parameter.
 
+![test_ngmesh2](png/test_ngmesh2.png "Curved mesh represented by test_ngmesh2.vol, viewed in ParaView.")
+
