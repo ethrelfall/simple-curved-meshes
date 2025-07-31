@@ -19,8 +19,6 @@ except ImportError:
 from netgen.geom2d import SplineGeometry
 geo = SplineGeometry()
 
-geo = SplineGeometry()
-
 geo.AddCircle(c=(0, 0),
               r=0.5,
               bc="circle",
